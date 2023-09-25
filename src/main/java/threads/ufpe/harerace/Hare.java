@@ -1,4 +1,4 @@
-package threads.ufpe.corridalebres;
+package threads.ufpe.harerace;
 
 import java.util.Random;
 
@@ -39,7 +39,15 @@ public class Hare {
         System.out.println(this.name + " jumped " + this.jump + " meters. Total " + this.distance);
     }
 
-    public Integer runnedDistance() {
+    public Integer getRunnedDistance() {
         return this.distance;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public Integer getNumberJumps() {
+        return this.numberJumps;
     }
 }
